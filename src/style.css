@@ -177,3 +177,13 @@ a {
   color: #4b5563;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    padding: 24px;
+  }
+}
