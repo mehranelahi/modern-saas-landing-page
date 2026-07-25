@@ -57,6 +57,61 @@ app.innerHTML = `
     </div>
   </div>
 </section>
+
+
+<section class="pricing">
+  <div class="container">
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>Starter</h3>
+          <p class="price">$0<span>/mo</span></p>
+          <p class="desc">Perfect for individuals and side projects.</p>
+        </div>
+
+        <ul class="features-list">
+          <li>Basic analytics</li>
+          <li>Up to 3 projects</li>
+          <li>Community support</li>
+        </ul>
+        <button class="btn btn-outline">Start for free</button>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-header">
+          <span class="badge">Most Popular</span>
+          <h3>Pro</h3>
+          <p class="price">$29<span>/mo</span></p>
+          <p class="desc">Best for growing teams.</p>
+        </div>
+
+        <ul class="features-list">
+          <li>Everything in Starter</li>
+          <li>Up to 20 team members</li>
+          <li>Advanced analytics</li>
+          <li>Priority support</li>
+        </ul>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>Enterprise</h3>
+          <p class="price">$99<span>/mo</span></p>
+          <p class="desc">Advanced tools for large organizations.</p>
+        </div>
+
+        <ul class="features-list">
+          <li>Everything in Starter</li>
+          <li>Unlimited projects</li>
+          <li>Advanced insights</li>
+          <li>Priority email support</li>
+        </ul>
+        <button class="btn btn-outline">Contact Sales</button>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 
 `;

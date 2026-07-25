@@ -187,3 +187,96 @@ a {
     padding: 24px;
   }
 }
+
+.pricing {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: center;
+}
+
+.pricing-card {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card.featured {
+  border: 2px solid #6366f1;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  position: relative;
+}
+
+.badge {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #4338ca;
+  padding: 4px 12px;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 16px 0;
+}
+
+.price span {
+  font-size: 1.125rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.features-list {
+  list-style: none;
+  margin: 32px 0;
+  flex-grow: 1;
+}
+
+.features-list li {
+  margin-bottom: 12px;
+  color: #4b5563;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.features-list li::before {
+  content: "✓";
+  color: #10b981;
+  margin: 8px;
+  font-weight: bold;
+}
+
+pricing-card .btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-outline {
+  background: white;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.btn-outline:hover {
+  background: #f9fafb;
+  border-color: #0ca3af;
+}
